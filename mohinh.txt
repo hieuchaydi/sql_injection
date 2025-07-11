@@ -1,0 +1,6 @@
+flask_monitor/
+├── app.py                  # Flask app chính
+├── logger_config.py        # Cấu hình log
+├── db.py                   # Kết nối SQLAlchemy
+├── sql_debugger.py         # In log SQL query
+├── telegram_alert.py       # Gửi cảnh báo Telegram (tùy chọn)
